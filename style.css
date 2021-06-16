@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    top: 5em;
+
+    padding-left: 30px;
+}
+
+
+.main-div {
+    display: flex;
+    height: 500px;
+    width: 900px;
+    padding: auto 100px auto 100px;
+    background: #150e56;
+    margin: 150px auto 150px 200px;
+}
+
+.flex-child-left {
+
+    width: 600px;
+
+}
+
+.flex-right-form {
+    width: 600px;
+
+}
+
+.quote {
+    text-align: center;
+    position: relative;
+    top: 1em;
+    right: 20px;
+
+}
+
+.mobile {
+    position: relative;
+    left: 1em;
+    padding: 30px;
+
+}
+
+.phone-icon {
+    padding-right: 20px;
+    color: blue;
+}
+
+.email-img {
+    position: relative;
+    bottom: 1em;
+    left: 1em;
+}
+
+.email-icon {
+    padding-right: 20px;
+    color: blue;
+}
+
+.location {
+    position: relative;
+    padding: 30px;
+    left: 1em;
+}
+
+.location-icon {
+    padding-right: 20px;
+    color: blue;
+
+}
+
+/* .facebook {
+    
+    left: 20px;
+}
+
+.facebook-icon {
+    color: white;
+}
+
+.instagram {
+    position: relative;
+    
+
+}
+
+.instagram-icon {
+    color: white;
+    padding-left: 10px;
+}
+
+
+.location-icons {
+    padding-left: 20px;
+    color: white;
+} */
+
+.right-div {
+    height: 400px;
+    width: 400px;
+    margin: 50px 30px auto 30px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    background: white;
+}
+
+.contact-form label {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.contact-form input {
+    padding-left: 30px;
+    padding-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.contact-form textarea {
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 3px;
+    width: 100%;
+    font-family: inter;
+    font-weight: normal;
+}
+
+.infosResult {
+    border: 2;
+    height: 400;
+    width: 340;
+}
+
+/* .name {
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+} */
